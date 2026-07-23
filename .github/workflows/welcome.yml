@@ -1,6 +1,7 @@
 # to show what context and vars available 
 #- name: Print GitHub context
 #  run: echo '${{ toJson(github) }}'
+# github.* secrets.* vars.* env
 
 
 name: Post welcome comment
