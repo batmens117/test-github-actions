@@ -1,3 +1,8 @@
+# to show what context and vars available 
+#- name: Print GitHub context
+#  run: echo '${{ toJson(github) }}'
+
+
 name: Post welcome comment
 on:
   pull_request:
